@@ -4,7 +4,7 @@ PREFERRED_PROVIDER_virtual/kernel ?= "linux-yocto"
 require conf/machine/include/tune-dbft3b.inc
 
 # Add serial consoles to kernel commandline
-SERIAL_CONSOLES = "115200;ttyUSB0"
+SERIAL_CONSOLES = "115200;ttyS0"
 KERNEL_SERIAL_CONSOLE ??= "console=ttyS0,115200n8"
 APPEND += "${KERNEL_SERIAL_CONSOLE}"
 
