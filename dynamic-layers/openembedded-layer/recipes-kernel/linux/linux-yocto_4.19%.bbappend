@@ -6,6 +6,7 @@ SRC_URI += " \
     file://ccp.cfg \
     file://pcspkr.cfg \
     file://leds.cfg \
+    file://temp-sensors.cfg \
 "
 
 # base on generic config from:
