@@ -5,6 +5,7 @@ SRC_URI += " \
     file://wdt-sp5100-tco.cfg \
     file://ccp.cfg \
     file://pcspkr.cfg \
+    file://leds.cfg \
 "
 
 # base on generic config from:
